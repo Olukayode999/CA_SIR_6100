@@ -1,3 +1,11 @@
+---
+title: "Homework 11"
+format: html 
+---
+
+```{python}
+
+
 # Run an agent-based SIR model
 # Olukayode Arowosegbe
 # 01 April, 2026
@@ -9,7 +17,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # import functions here....
-
+from functions.init_grid import init_grid
+from functions.draw import draw
+from functions.update import update_sir
+from functions.mouse import mouse_to_cell
 
 
 # States
@@ -142,3 +153,5 @@ def main(dimx, dimy, cellsize, S = S, I = I, R = R, beta = beta, gamma = gamma, 
 # run main function here...
 if __name__ == "__main__":
     main(100, 70, 8)
+
+```
