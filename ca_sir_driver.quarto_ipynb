@@ -9,7 +9,7 @@
         "format: html \n",
         "---"
       ],
-      "id": "96af73d3"
+      "id": "1ac57d6c"
     },
     {
       "cell_type": "code",
@@ -163,7 +163,7 @@
         "if __name__ == \"__main__\":\n",
         "    main(100, 70, 8)"
       ],
-      "id": "b2ecad7c",
+      "id": "54deaa82",
       "execution_count": null,
       "outputs": []
     }
